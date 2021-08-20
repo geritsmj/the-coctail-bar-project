@@ -51,6 +51,7 @@ h1,h2,h3,h4,h5,h6,p,a {
 
 .bg-featured { background-color: #183039;}
 .bg-dark     { background-color: #24282B;}
+.bg-gallery {background-color:#e7e7df}
 
 .light-text    { color: white;}
 .featured-text { color: #183039;}
@@ -64,6 +65,7 @@ h1,h2,h3,h4,h5,h6,p,a {
 body {
     font-family: 'Martel', serif;
     font-weight: 200;
+    padding: 5%;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -125,6 +127,16 @@ a {
     margin: 1rem 0;
 }
 
+/* Gallery typography */
+
+.caption {
+    font-family: 'Didot', Georgia, serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+
 /*  header & footer     */
 
 footer {
@@ -156,6 +168,7 @@ footer h2 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+   
 }
 
 
@@ -163,6 +176,59 @@ footer h2 {
 .bg-window {background-image: url('/images/negroni-2.jpg')}
 .bg-plant {background-image: url('/images/negroni-4.jpg')}
 .bg-water {background-image: url('/images/water-light.jpg')}
+
+/* Gallery background images and styles */
+
+.bg-one { background-image: url('/images/cocktail-1-red.jpg')}
+
+.bg-second { background-image: url('/images/cocktail-2-pour.jpg')}
+
+.bg-third { background-image: url('/images/cocktail-3-orange.jpg')}
+
+.bg-fourth { background-image: url('/images/coctail-4-lime.jpg')}
+
+.bg-fifth { background-image: url('/images/cocktail-bar.jpg')}
+
+
+.bar { padding-bottom: 40%;}
+
+/*-------------- slider -------------- */
+
+.slider-item {
+    padding: 1rem;
+    display: none;
+
+}
+
+.slider-container {
+    padding: 5%;
+}
+
+.slick-next {
+    right: 5px;
+}
+
+.slick-prev {
+    left: 5px;
+}
+
+.slick-next::before, .slick-prev::before {
+    font-family: slick;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #183039;
+}
+
+.slick-dots {
+    bottom: 8%;
+    left: 0;
+}
+
+
+
+
+ 
 
 
 @media (max-width: 48em) {
