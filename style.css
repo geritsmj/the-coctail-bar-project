@@ -180,6 +180,7 @@ footer h2 {
 /* Gallery background images and styles */
 
 .bg-one { background-image: url('/images/cocktail-1-red.jpg')}
+    
 
 .bg-second { background-image: url('/images/cocktail-2-pour.jpg')}
 
@@ -225,6 +226,13 @@ footer h2 {
     left: 0;
 }
 
+.slick-dotted.slick-slider {
+    margin-bottom: 3px;
+}
+
+[class*=grid]{
+    margin: 0;
+}
 
 
 
